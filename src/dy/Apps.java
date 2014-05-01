@@ -7,9 +7,9 @@ import java.util.Date;
 public class Apps {
 
 	public static void main(String[] args) {
-		SimpleDateFormat formater=new SimpleDateFormat("dd-MM-yyyy");
+		SimpleDateFormat formater=new SimpleDateFormat("dd/MM/yyyy");
 		
-		String  dateInString="14-02-1980";
+		String  dateInString="14/02/1980";
 		try {
 			Date date=formater.parse(dateInString);
 			System.out.println(date);
